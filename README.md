@@ -9,4 +9,4 @@ Code was found here: https://www.hpcalc.org/details/7790
 
 There are 2 folders with slightly different versions.
 1. Console-Simple - barebones pascal program
-2. Console-Application - lazarus add in TApplication with extra features to help you with a console program.
+2. Console-Application - lazarus adds in TApplication with extra features to help you with a console program.

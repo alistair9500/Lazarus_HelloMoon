@@ -1,0 +1,34 @@
+object frmInstructions: TfrmInstructions
+  Left = 642
+  Height = 360
+  Top = 280
+  Width = 727
+  Caption = 'Moon Lander'
+  ClientHeight = 360
+  ClientWidth = 727
+  DesignTimePPI = 144
+  LCLVersion = '2.0.4.0'
+  object Memo1: TMemo
+    Left = 32
+    Height = 248
+    Top = 24
+    Width = 661
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Lines.Strings = (
+      'Memo1'
+    )
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object btnOK: TButton
+    Left = 580
+    Height = 38
+    Top = 299
+    Width = 113
+    Anchors = [akRight, akBottom]
+    Caption = 'OK'
+    ModalResult = 1
+    TabOrder = 1
+  end
+end

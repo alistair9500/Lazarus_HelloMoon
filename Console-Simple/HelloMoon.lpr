@@ -102,19 +102,18 @@ begin
   writeln(Format('Landing Velocity = %6.2f Feet/Sec',[Vel]));
   writeln(intToStr(Fuel)+' units of Fuel remaining');
   writeln;
-  case abs(fuel) of
-    0:
-      begin
-  	writeln('CONGRATULATIONS! A PERFECT LANDING!!');
-  	writeln('YOUR LICENSE WILL BE RENEWED  ....  LATER.');
-      end;
-    -2,-1,1,2:
-      begin
-	writeln('Any Landing you can walk away from is a good landing');
-      end;
-  else
-    writeln('***** SORRY, BUT YOU BLEW IT!!!!');
-    writeln('APPROPRIATE CONDOLENCES WILL BE SENT TO YOUR NEXT OF KIN');
+  if abs(Vel) <= 0.01 then
+  begin
+    writeln('CONGRATULATIONS! A PERFECT LANDING!!');
+    writeln('YOUR LICENSE WILL BE RENEWED  ....  LATER.');
+  end else begin
+    if abs(Vel) <=2 then
+    begin
+	  writeln('Any Landing you can walk away from is a good landing');
+    end else begin
+      writeln('***** SORRY, BUT YOU BLEW IT!!!!');
+      writeln('APPROPRIATE CONDOLENCES WILL BE SENT TO YOUR NEXT OF KIN');
+	end;
   end;
 end;
 
