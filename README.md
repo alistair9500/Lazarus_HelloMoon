@@ -12,5 +12,5 @@ There are 3 folders with slightly different versions.
 2. Console-Application - lazarus adds in TApplication with extra features to help you with a console program.
 3. LCL-Application - A windows application
 
-// Icons made by Smashicons from www.flaticon.com
-// https://www.flaticon.com/authors/smashicons
+Icons made by Smashicons from www.flaticon.com
+https://www.flaticon.com/authors/smashicons
