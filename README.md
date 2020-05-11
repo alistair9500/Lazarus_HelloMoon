@@ -7,6 +7,10 @@ Then here it is - **Hello Moon** - A variant of the Lunar Lander program that I 
 
 Code was found here: https://www.hpcalc.org/details/7790
 
-There are 2 folders with slightly different versions.
+There are 3 folders with slightly different versions.
 1. Console-Simple - barebones pascal program
 2. Console-Application - lazarus adds in TApplication with extra features to help you with a console program.
+3. LCL-Application - A windows application
+
+// Icons made by Smashicons from www.flaticon.com
+// https://www.flaticon.com/authors/smashicons
